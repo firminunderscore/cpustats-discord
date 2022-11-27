@@ -1,0 +1,19 @@
+{
+  "name": "cpuindiscord",
+  "description": "Display your RAM and CPU in Discord !",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Firmin_",
+  "license": "MIT",
+  "dependencies": {
+    "cpu-stat": "^2.0.1",
+    "discord-rich-presence": "^0.0.8"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "build": "pkg index.js -c package.json --out-path dist"
+  }
+}
