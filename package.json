@@ -1,7 +1,7 @@
 {
   "name": "cpuindiscord",
   "description": "Display your RAM and CPU in Discord !",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "author": "Firmin_",
   "license": "MIT",

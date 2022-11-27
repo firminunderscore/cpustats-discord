@@ -35,6 +35,7 @@ setInterval(() => {
         (100 - Math.round((os.freemem() / os.totalmem()) * 100)) +
         "%)",
       details: `${percent.toFixed(2)}%`,
+      largeImageText: "https://github.com/firminsurgithub/cpustats-discord",
       largeImageKey: cpuimg,
       smallImageText: "By Firmin_",
       smallImageKey: ramimg,
