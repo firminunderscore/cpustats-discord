@@ -1,7 +1,7 @@
 {
   "name": "cpuindiscord",
   "description": "Display your RAM and CPU in Discord !",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "author": "Firmin_",
   "license": "MIT",
@@ -14,6 +14,6 @@
   },
   "scripts": {
     "start": "node index.js",
-    "build": "pkg index.js -c package.json --out-path dist"
+    "build": "pkg index.js -c package.json --out-path dist --compress GZip"
   }
 }
