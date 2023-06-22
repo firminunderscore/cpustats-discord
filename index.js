@@ -71,4 +71,10 @@ rpc.on("ready", () => {
   }, 1250);
 });
 
+rpc.on("disconnected", () => {
+  console.clear();
+  console.log("Disconnected from Discord!");
+  process.exit(0);
+});
+
 rpc.login({ clientId: clientId }).catch(console.error);
