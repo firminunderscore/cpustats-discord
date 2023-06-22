@@ -7,7 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "cpu-stat": "^2.0.1",
-    "discord-rich-presence": "^0.0.8"
+    "discord-rpc": "^4.0.1"
   },
   "devDependencies": {
     "pkg": "^5.8.0"
